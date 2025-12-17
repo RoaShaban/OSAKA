@@ -9,6 +9,10 @@ body{
 
 /* navbar starts */
 
+.navbar{
+    position: fixed;
+}
+
 nav .navbar-nav a, nav .navbar-nav .nav-link.active{
     color: #fff;
     transition-property: color;
@@ -25,3 +29,47 @@ nav .navbar-nav a:hover{
 
 /* navbar ends */
 
+/* hero starts */
+
+.hero{
+    height: 100vh;
+    background-image: url('./../img/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+.hero h1{
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.hero h2{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.hero .hero-content a{
+    color: var(--primaryColor);
+}
+
+.hero .logo{
+    margin-top: -50px;
+}
+
+.hero .logo .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(34, 34, 34);
+    color: #fff;
+    width: 36px;
+    height: 36px;
+    transition: .5s;
+}
+
+.hero .logo .icon:hover{
+    border: 1px solid #fff;
+}
+
+/* hero ends */
