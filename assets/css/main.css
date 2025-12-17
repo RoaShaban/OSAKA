@@ -1,0 +1,27 @@
+:root{
+    --mainFont: "Open Sans", sans-serif;
+    --primaryColor: #ff206e;
+}
+
+body{
+    font-family: var(--mainFont);
+}
+
+/* navbar starts */
+
+nav .navbar-nav a, nav .navbar-nav .nav-link.active{
+    color: #fff;
+    transition-property: color;
+    transition-delay: .5ms;
+}
+
+nav .navbar-nav .nav-link.active:hover{
+    color: var(--primaryColor);
+}
+
+nav .navbar-nav a:hover{
+    color: var(--primaryColor);
+}
+
+/* navbar ends */
+
