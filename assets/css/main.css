@@ -7,6 +7,10 @@ body{
     font-family: var(--mainFont);
 }
 
+.text-primaryColor{
+    color: var(--primaryColor);
+}
+
 /* navbar starts */
 
 .navbar{
@@ -49,10 +53,6 @@ nav .navbar-nav a:hover{
     font-weight: 400;
 }
 
-.hero .hero-content a{
-    color: var(--primaryColor);
-}
-
 .hero .logo{
     margin-top: -50px;
 }
@@ -73,3 +73,42 @@ nav .navbar-nav a:hover{
 }
 
 /* hero ends */
+
+/* About starts */
+
+.about .about-header h2{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.about .about-header p{
+    font-size: 14px;
+    font-weight: 400; 
+}
+
+.about .about-content h3{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.about .about-content h4{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.about .about-content p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.about .about-content span{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.about .about-content a{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* About ends */
