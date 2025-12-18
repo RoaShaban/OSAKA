@@ -162,3 +162,88 @@ nav .navbar-nav a:hover{
 }
 
 /* portfolio ends */
+
+/* testimonials starts */
+
+.testimonials .testimonials-title h2{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.testimonials .testimonials-title p{
+    font-size: 14px;
+    font-weight: 400; 
+    margin-bottom: 100px;
+}
+
+.carousel-inner{
+    overflow: visible;
+}
+
+.testimonials .item-content{
+    border: solid 1px rgb(245, 245, 245);
+    position: relative;
+    overflow: visible;
+    padding-top: 55px;
+}
+
+.testimonials .item-content img{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: -47px;
+    margin: auto;
+    z-index: 3;
+}
+
+.testimonials .item-content h3{
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.testimonials .item-content h4{
+    font-size: 12px;
+    font-weight: 600;
+    color: RGB(85, 85, 85);
+}
+
+.testimonials .item-content h3::after{
+    content: '';
+    background-color: var(--primaryColor);
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    top: 50px;
+    left: 30px;
+}
+
+.testimonials .item-content .senior-dsigner::after{
+    content: '';
+    background-color: var(--primaryColor);
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    top: 50px;
+    left: 22px;
+}
+
+.testimonials .item-content p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.testimonials .carousel-indicators{
+    bottom: -60px;
+}
+
+.testimonials .carousel-indicators [data-bs-target]{
+    border-radius: 50%;
+    width: 6px;
+    height: 6px;
+    background-color: var(--primaryColor);
+}
+
+/* testimonials ends */
