@@ -113,6 +113,19 @@ nav .navbar-nav a:hover{
 
 /* About ends */
 
+/* About responsive starts */
+
+@media screen and (max-width: 992px){
+
+    .about .about-content p{
+        font-size: 14px;
+        font-weight: 400;
+    }   
+
+}
+
+/* About responsive ends */
+
 /* portfolio starts */
 
 .portfolio .portfolio-title h2{
@@ -147,6 +160,5 @@ nav .navbar-nav a:hover{
 .nav-tabs .nav-link.active{
     color: var(--primaryColor);
 }
-
 
 /* portfolio ends */
