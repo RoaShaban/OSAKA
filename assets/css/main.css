@@ -112,3 +112,41 @@ nav .navbar-nav a:hover{
 }
 
 /* About ends */
+
+/* portfolio starts */
+
+.portfolio .portfolio-title h2{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.portfolio .portfolio-title p{
+    font-size: 14px;
+    font-weight: 400; 
+}
+
+.portfolio .nav-tabs{
+    border-bottom: none;
+}
+
+.nav-tabs .nav-link{
+    border: none;
+}
+
+.nav-link{
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    transition: color .5s ease-in-out, background-color .5s ease-in-out;
+}
+
+.nav-link:hover{
+    color: var(--primaryColor);
+}
+
+.nav-tabs .nav-link.active{
+    color: var(--primaryColor);
+}
+
+
+/* portfolio ends */
