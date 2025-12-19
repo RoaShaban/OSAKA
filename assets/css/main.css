@@ -125,6 +125,14 @@ nav .navbar-nav a:hover{
 
 }
 
+@media screen and (max-width: 576px) {
+
+    .about .about-content p{
+        display: none;
+    }  
+    
+}
+
 /* About responsive ends */
 
 /* services starts */
