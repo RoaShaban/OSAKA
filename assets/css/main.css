@@ -79,6 +79,7 @@ nav .navbar-nav a:hover{
 .about .about-header h2{
     font-size: 40px;
     font-weight: 800;
+    letter-spacing: 3px;
 }
 
 .about .about-header p{
@@ -126,11 +127,82 @@ nav .navbar-nav a:hover{
 
 /* About responsive ends */
 
+/* services starts */
+
+.services{
+    padding:89px 0;
+    background-image: url(../img/dark_dot.jpg);
+    background-position: center;
+}
+
+.services .services-title h2{
+    letter-spacing: 3px;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.services .services-title p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 90px;
+    color: #aaa;
+}
+
+.services .services-content h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 35px;
+    position: relative;
+    margin-bottom: 26px;
+}
+
+.services .services-content h3::after{
+    content: '';
+    width: 32px;
+    height: 1px;
+    top: 30px;
+    left: 36px;
+    background-color: var(--primaryColor);
+    position: absolute;
+    transition: .5s;
+}
+
+.services .services-content p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.services .services-content .card .icon{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -50%);
+}
+
+.services .services-content .card .icon i{
+    font-size: 24px;
+    width: 60px;
+    height: 60px;
+    transition: color .5s;
+}
+
+.services .services-content .card:hover i{
+    color: var(--primaryColor) !important;
+}
+
+.services .services-content .card:hover h3::after{
+    width: 42px;
+    left: 32px;;
+}
+
+/* services ends */
+
 /* portfolio starts */
 
 .portfolio .portfolio-title h2{
     font-size: 40px;
     font-weight: 800;
+    letter-spacing: 3px;
 }
 
 .portfolio .portfolio-title p{
@@ -168,6 +240,7 @@ nav .navbar-nav a:hover{
 .testimonials .testimonials-title h2{
     font-size: 40px;
     font-weight: 800;
+    letter-spacing: 3px;
 }
 
 .testimonials .testimonials-title p{
